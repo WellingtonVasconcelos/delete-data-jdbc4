@@ -15,7 +15,7 @@ public class Program {
 		PreparedStatement st = null;
 		try {
 			conn = DB.getConnection();
-			//Atualizar dados
+			//Deletar dados
 			st = conn.prepareStatement(
 					"DELETE FROM department "
 					+ "WHERE "
